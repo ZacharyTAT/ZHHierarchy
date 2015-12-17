@@ -27,7 +27,6 @@
  */
 + (NSString *)subViewsInView:(UIView *)view
 {
-    NSLog(@"%d",view.subviews.count);
     
     NSString *className = NSStringFromClass([view class]);
     NSMutableString *str = [NSMutableString stringWithFormat:@"<%@",className];
